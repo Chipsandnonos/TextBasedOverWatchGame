@@ -1,7 +1,7 @@
 /*
  * Program: RPG : McCree's Redemption
- * Student Name: Rahul
- * Student Number: 661174
+ Rahul  Gudise
+ 
  * Description: This game is a pre-quell to the massive online game Overwatch. The game includes several minigames
  * as well as epic battles. Solve puzzles and discover a vast universe in this RPG made only with words
  * and characters!
@@ -277,7 +277,7 @@ public class RPG
         { 
           AskQ ='Y'; //confirms the player asked a question, this is in every question branch
           Ascii(4); // ascii of Ana
-          System.out.println("Reyes: Ah, Ana, she’s a feisty one. She is currently the second in command, below me and Morrison."); //prints out description of hero
+          System.out.println("Reyes: Ah, Ana, sheÂ’s a feisty one. She is currently the second in command, below me and Morrison."); //prints out description of hero
           
           pressAnyKeyToContinue();
           
@@ -285,7 +285,7 @@ public class RPG
           
           pressAnyKeyToContinue();
           
-          System.out.println("The scariest thing about her, is her drive to make the world a safer place…. She is not afraid to do anything as long as she is getting closer to her goal.");
+          System.out.println("The scariest thing about her, is her drive to make the world a safer placeÂ…. She is not afraid to do anything as long as she is getting closer to her goal.");
           System.out.println("");
           
         }
@@ -305,13 +305,13 @@ public class RPG
           pressAnyKeyToContinue();
           
           System.out.println ("He is a bit of a show boat, but to be honest, he just looks pretty.");
-          System.out.println ("Trust me I’m not jealous of him.");
+          System.out.println ("Trust me IÂ’m not jealous of him.");
           System.out.println("");
         }
         else if (HQ == 'R' || HQ == 'r')  //prints out description of hero
         {AskQ ='Y';
           Ascii(5); // Ascii of Reyes
-          System.out.println("Reyes: Oh me? well I’m a war veteran until I was asked to join the Super Soldier Program, in which I trained hard and met Morrison. ");
+          System.out.println("Reyes: Oh me? well IÂ’m a war veteran until I was asked to join the Super Soldier Program, in which I trained hard and met Morrison. ");
           
           pressAnyKeyToContinue();
           
@@ -319,7 +319,7 @@ public class RPG
           
           pressAnyKeyToContinue();
           
-          System.out.println("During that time, I made friends which I will never forget. I’m not as pretty as Morrison so I handle all of the “other” stuff, but I’m fine with it as long as it’s making a difference in the world.");
+          System.out.println("During that time, I made friends which I will never forget. IÂ’m not as pretty as Morrison so I handle all of the Â“otherÂ” stuff, but IÂ’m fine with it as long as itÂ’s making a difference in the world.");
           System.out.println("");
           
         }
@@ -402,7 +402,7 @@ public class RPG
       {AskQ2 = 'Y'; //will be set, so it means that the user asked a question, is in each branch of questions
         System.out.println("Reyes: Well, to be honest with you I have no clue.");
         System.out.println("McCree: ...");
-        System.out.println("Reyes: Well I’m sure we will find something eventually ;)");
+        System.out.println("Reyes: Well IÂ’m sure we will find something eventually ;)");
         System.out.println("");
       }
       else if (Questions2p2 == 'S'|| Questions2p2 =='s')//prints out answer
@@ -415,7 +415,7 @@ public class RPG
         
         pressAnyKeyToContinue();
         
-        System.out.println("We currently don’t know who their leader is or where they reside, but that’s what we're for.");
+        System.out.println("We currently donÂ’t know who their leader is or where they reside, but thatÂ’s what we're for.");
         System.out.println("");
       }
       else if (Questions2p2 == 'M'|| Questions2p2 =='m')//prints out answer
@@ -735,7 +735,7 @@ public class RPG
   pressAnyKeyToContinue();
   
   System.out.println("McCree: No clue I have to decipher it first.");
-  System.out.println("Reyes: Great, why couldn't they just be more straightforward with these things. What’s the riddle?");
+  System.out.println("Reyes: Great, why couldn't they just be more straightforward with these things. WhatÂ’s the riddle?");
   
   pressAnyKeyToContinue();
   
@@ -810,7 +810,7 @@ public class RPG
   Chealth = Potion(Chealth);//player gets to decide if they want to risk trying to get a health potion
   if (Chealth <=0)
   {return Chealth;}
-  System.out.println("Reyes: McCree stop fooling around let’s go, before more goons come.");
+  System.out.println("Reyes: McCree stop fooling around letÂ’s go, before more goons come.");
   
   pressAnyKeyToContinue();
   
@@ -1159,7 +1159,7 @@ public class RPG
     pressAnyKeyToContinue();
     
     System.out.println("");
-    System.out.println("McCree: Phew, close one. Hmmm what’s this vial he had on him?");
+    System.out.println("McCree: Phew, close one. Hmmm whatÂ’s this vial he had on him?");
     
     pressAnyKeyToContinue();
     
@@ -1509,15 +1509,15 @@ public class RPG
         
         pressAnyKeyToContinue();
         
-        System.out.println("The other dragon’s pride soon turned to sorrow as he realised that power was not important.");
+        System.out.println("The other dragonÂ’s pride soon turned to sorrow as he realised that power was not important.");
         
         pressAnyKeyToContinue();
         
-        System.out.println("He realised what he had done, which was ruin all that they had. One day a mysterious man appeared before the dragon and asked, “Why do you weep great dragon”. ");
+        System.out.println("He realised what he had done, which was ruin all that they had. One day a mysterious man appeared before the dragon and asked, Â“Why do you weep great dragonÂ”. ");
         
         pressAnyKeyToContinue();
         
-        System.out.println("The dragon responded, “In a fight for power I killed my brother, and now I am left in solitude”. The stranger said that in order to heal he must walk on Earth and fix what he had done.");   
+        System.out.println("The dragon responded, Â“In a fight for power I killed my brother, and now I am left in solitudeÂ”. The stranger said that in order to heal he must walk on Earth and fix what he had done.");   
         
         pressAnyKeyToContinue();
         
@@ -1525,7 +1525,7 @@ public class RPG
         
         pressAnyKeyToContinue();
         
-        System.out.println("Truly a remarkable story, reminds me a bit about those 2 sons Hanzo and Genji……..");
+        System.out.println("Truly a remarkable story, reminds me a bit about those 2 sons Hanzo and GenjiÂ…Â…..");
         
         pressAnyKeyToContinue();
         
@@ -1534,7 +1534,7 @@ public class RPG
       else if (wQues == 'P' || wQues == 'p')//prints answer
       {
         Ascii(9); //prints ascii
-        System.out.println("The Shimada’s have a very unique ability… the ability to utilize demons. Although only the higher ups are able to manifest these beasts. ");
+        System.out.println("The ShimadaÂ’s have a very unique abilityÂ… the ability to utilize demons. Although only the higher ups are able to manifest these beasts. ");
         
         pressAnyKeyToContinue();
         
